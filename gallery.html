@@ -28,129 +28,192 @@
     </div>
 </header>
 
-            <main class="gallery-main">
-  <section class="gallery-intro">
-    <h1>asdf Gallery</h1>
-    <p class="subheading">Explore our creative solutions and innovative projects</p>
+            <main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>asdf Showcase</h1>
+      <p class="subheading">Where precision meets creativity</p>
+    </div>
   </section>
 
-  <div class="filter-buttons">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="design">Design</button>
-    <button class="filter-btn" data-filter="development">Development</button>
-    <button class="filter-btn" data-filter="branding">Branding</button>
-    <button class="filter-btn" data-filter="consulting">Consulting</button>
+  <!-- Gallery Filter -->
+  <section class="gallery-filter">
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="digital">Digital Solutions</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="ux">UX/UI</button>
+      <button class="filter-btn" data-filter="motion">Motion</button>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="gallery-grid">
+    <div class="grid-container">
+      <!-- Project 1 -->
+      <a href="#" class="grid-item digital" data-project="1">
+        <img src="images/gallery1.jpg" alt="Digital Dashboard Design">
+        <div class="project-overlay">
+          <h3>Analytics Dashboard</h3>
+          <p>Interactive data visualization platform</p>
+        </div>
+      </a>
+      
+      <!-- Project 2 -->
+      <a href="#" class="grid-item branding" data-project="2">
+        <img src="images/gallery2.jpg" alt="Brand Identity">
+        <div class="project-overlay">
+          <h3>Nova Branding</h3>
+          <p>Complete brand identity system</p>
+        </div>
+      </a>
+      
+      <!-- Project 3 -->
+      <a href="#" class="grid-item ux" data-project="3">
+        <img src="images/gallery3.jpg" alt="Mobile App Design">
+        <div class="project-overlay">
+          <h3>Travel App</h3>
+          <p>End-to-end UX for travel platform</p>
+        </div>
+      </a>
+      
+      <!-- Project 4 -->
+      <a href="#" class="grid-item motion" data-project="4">
+        <img src="images/gallery4.jpg" alt="Motion Graphics">
+        <div class="project-overlay">
+          <h3>Product Animation</h3>
+          <p>3D product reveal animation</p>
+        </div>
+      </a>
+      
+      <!-- Project 5 -->
+      <a href="#" class="grid-item digital" data-project="5">
+        <img src="images/gallery5.jpg" alt="Web Application">
+        <div class="project-overlay">
+          <h3>SAAS Platform</h3>
+          <p>Enterprise web application</p>
+        </div>
+      </a>
+      
+      <!-- Project 6 -->
+      <a href="#" class="grid-item branding" data-project="6">
+        <img src="images/gallery6.jpg" alt="Packaging Design">
+        <div class="project-overlay">
+          <h3>Eco Packaging</h3>
+          <p>Sustainable packaging system</p>
+        </div>
+      </a>
+      
+      <!-- Project 7 -->
+      <a href="#" class="grid-item ux" data-project="7">
+        <img src="images/gallery7.jpg" alt="Website Redesign">
+        <div class="project-overlay">
+          <h3>E-commerce UX</h3>
+          <p>Conversion-focused redesign</p>
+        </div>
+      </a>
+      
+      <!-- Project 8 -->
+      <a href="#" class="grid-item motion" data-project="8">
+        <img src="images/gallery8.jpg" alt="Explainer Video">
+        <div class="project-overlay">
+          <h3>Product Explainer</h3>
+          <p>Animated explainer video</p>
+        </div>
+      </a>
+      
+      <!-- Project 9 -->
+      <a href="#" class="grid-item digital" data-project="9">
+        <img src="images/gallery9.jpg" alt="Data Visualization">
+        <div class="project-overlay">
+          <h3>Financial Dashboard</h3>
+          <p>Real-time data visualization</p>
+        </div>
+      </a>
+      
+      <!-- Project 10 -->
+      <a href="#" class="grid-item branding" data-project="10">
+        <img src="images/gallery10.jpg" alt="Logo Design">
+        <div class="project-overlay">
+          <h3>Startup Identity</h3>
+          <p>Logo and visual identity</p>
+        </div>
+      </a>
+      
+      <!-- Project 11 -->
+      <a href="#" class="grid-item ux" data-project="11">
+        <img src="images/gallery11.jpg" alt="Mobile UI">
+        <div class="project-overlay">
+          <h3>Fitness App</h3>
+          <p>Mobile workout tracking UI</p>
+        </div>
+      </a>
+      
+      <!-- Project 12 -->
+      <a href="#" class="grid-item motion" data-project="12">
+        <img src="images/gallery12.jpg" alt="Title Sequence">
+        <div class="project-overlay">
+          <h3>Documentary Titles</h3>
+          <p>Animated title sequence</p>
+        </div>
+      </a>
+    </div>
+    
+    <button class="load-more">Load More Projects</button>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>Trusted by leading brands</h2>
+    <div class="client-logos">
+      <div class="logo-item">
+        <img src="images/client1.svg" alt="Client Logo">
+      </div>
+      <div class="logo-item">
+        <img src="images/client2.svg" alt="Client Logo">
+      </div>
+      <div class="logo-item">
+        <img src="images/client3.svg" alt="Client Logo">
+      </div>
+      <div class="logo-item">
+        <img src="images/client4.svg" alt="Client Logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Ready to start your project?</h2>
+      <p>Our team is ready to bring your vision to life with the same level of craftsmanship showcased here.</p>
+      <a href="#" class="cta-button">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- Project Modal (Hidden by default) -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-body">
+        <div class="modal-image">
+          <img src="" alt="" id="modalImg">
+        </div>
+        <div class="modal-info">
+          <h2 id="modalTitle"></h2>
+          <p class="modal-category" id="modalCategory"></p>
+          <p class="modal-description" id="modalDescription"></p>
+          <a href="#" class="modal-link">View Case Study</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="gallery-grid">
-    <!-- Item 1 -->
-    <div class="gallery-item" data-category="design">
-      <img src="images/gallery1.jpg" alt="Creative design project">
-      <div class="overlay">
-        <h3>Website Redesign</h3>
-        <p>Modern UI/UX for e-commerce platform</p>
-      </div>
-    </div>
-    
-    <!-- Item 2 -->
-    <div class="gallery-item" data-category="development">
-      <img src="images/gallery2.jpg" alt="Web development project">
-      <div class="overlay">
-        <h3>Mobile App</h3>
-        <p>Cross-platform fitness application</p>
-      </div>
-    </div>
-    
-    <!-- Item 3 -->
-    <div class="gallery-item" data-category="branding">
-      <img src="images/gallery3.jpg" alt="Brand identity project">
-      <div class="overlay">
-        <h3>Corporate Identity</h3>
-        <p>Complete branding for startup</p>
-      </div>
-    </div>
-    
-    <!-- Item 4 -->
-    <div class="gallery-item" data-category="design">
-      <img src="images/gallery4.jpg" alt="UI design project">
-      <div class="overlay">
-        <h3>Dashboard UI</h3>
-        <p>Analytics interface design</p>
-      </div>
-    </div>
-    
-    <!-- Item 5 -->
-    <div class="gallery-item" data-category="consulting">
-      <img src="images/gallery5.jpg" alt="Business consulting">
-      <div class="overlay">
-        <h3>Strategy Workshop</h3>
-        <p>Digital transformation planning</p>
-      </div>
-    </div>
-    
-    <!-- Item 6 -->
-    <div class="gallery-item" data-category="development">
-      <img src="images/gallery6.jpg" alt="Web application">
-      <div class="overlay">
-        <h3>CRM System</h3>
-        <p>Custom customer management solution</p>
-      </div>
-    </div>
-    
-    <!-- Item 7 -->
-    <div class="gallery-item" data-category="branding">
-      <img src="images/gallery7.jpg" alt="Packaging design">
-      <div class="overlay">
-        <h3>Product Packaging</h3>
-        <p>Sustainable packaging design</p>
-      </div>
-    </div>
-    
-    <!-- Item 8 -->
-    <div class="gallery-item" data-category="design">
-      <img src="images/gallery8.jpg" alt="Illustration project">
-      <div class="overlay">
-        <h3>Digital Illustrations</h3>
-        <p>Series of custom artwork</p>
-      </div>
-    </div>
-    
-    <!-- Item 9 -->
-    <div class="gallery-item" data-category="development">
-      <img src="images/gallery9.jpg" alt="Web development">
-      <div class="overlay">
-        <h3>E-commerce Platform</h3>
-        <p>Custom online store solution</p>
-      </div>
-    </div>
-    
-    <!-- Item 10 -->
-    <div class="gallery-item" data-category="consulting">
-      <img src="images/gallery10.jpg" alt="Business meeting">
-      <div class="overlay">
-        <h3>Digital Strategy</h3>
-        <p>Market expansion planning</p>
-      </div>
-    </div>
-    
-    <!-- Item 11 -->
-    <div class="gallery-item" data-category="branding">
-      <img src="images/gallery11.jpg" alt="Logo design">
-      <div class="overlay">
-        <h3>Logo Design</h3>
-        <p>Brand mark for tech company</p>
-      </div>
-    </div>
-    
-    <!-- Item 12 -->
-    <div class="gallery-item" data-category="design">
-      <img src="images/gallery12.jpg" alt="Mobile UI design">
-      <div class="overlay">
-        <h3>App UI Kit</h3>
-        <p>Design system for mobile apps</p>
-      </div>
-    </div>
-  </div>
+  <!-- External Resources -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/base.js"></script>
+  <script src="js/gallery.js"></script>
 </main>
 
             <footer class="site-footer">
