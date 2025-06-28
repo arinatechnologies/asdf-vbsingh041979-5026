@@ -1,1 +1,22 @@
-// services JS
+[
+  "modern web application dashboard",
+  "mobile app user interface design",
+  "brand identity style guide",
+  "e-commerce website product page",
+  "fitness app workout screen",
+  "corporate website homepage",
+  "social media app profile view",
+  "UI/UX design wireframes",
+  "data visualization dashboard",
+  "travel app map interface",
+  "product packaging mockup",
+  "marketing brochure layout",
+  "responsive website on multiple devices",
+  "mobile banking app screens",
+  "logo design concepts",
+  "web application admin panel",
+  "health tracking app charts",
+  "restaurant website design",
+  "mobile game interface",
+  "brand collateral materials"
+]
